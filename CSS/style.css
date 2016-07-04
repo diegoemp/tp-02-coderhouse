@@ -1,0 +1,360 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
+@import url(normalize.css);
+
+
+/**************************
+******* GENERALES ********
+*************************/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+	margin: 0px;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+
+/**************************
+******** HEADER **********
+*************************/
+
+.main-header {
+   background-color: #F7931E;
+	border-bottom: solid 10px #FF7316;
+	border-top: solid 50px #464749;
+}
+
+.container {
+   width: 1200px;
+   margin: auto;
+}
+
+.banner-header {
+	background: url(../images/escritorio-header.svg) center top no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+
+.iconos-left {
+	float: left;
+	position: relative;
+	margin: -52px 0 0 10px;
+}
+
+.iconos-left h2 {
+	font-size: 20px;
+	color: rgb(255, 214, 0);
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+}
+
+.iconos-right {
+	float: right;
+	position: relative;
+	margin: -38px 10px 0 0;
+}
+
+.iconos-right i {
+	font-size: 25px;
+	color: white;
+}
+
+.iconos-right a {
+	text-decoration: none;
+}
+
+.iconos-right a:nth-of-type(2) {
+   margin: 0 10px;
+}
+
+.iconos-right a:hover i {
+	color: rgb(255, 214, 0);
+}
+
+.main-header h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+   font-size: 52px;
+   color: white;
+	margin: 0px 0px 0px 640px;
+	letter-spacing: -2px;
+	padding-top: 160px;
+}
+
+.main-header p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: white;
+	margin: 0px 0px 0px 640px;
+   text-transform: uppercase;
+}
+
+.cleaner {
+	clear: both;
+}
+
+
+/**************************
+******** PERFIL **********
+*************************/
+
+.perfil {
+	background-color: #E6E6E6;
+	padding-top: 25px;
+}
+
+.banner-perfil  h2 {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	margin-top: -10px;
+	color: #F7931E;
+}
+
+.banner-perfil p {
+	text-align: center;
+	margin: 0 50px;
+	padding-bottom: 40px;
+	font-weight: 300;
+}
+
+.logo {
+   text-align: center;
+}
+
+.logo img {
+	height: 200px;
+}
+
+
+/**************************
+******** SKILLS **********
+*************************/
+
+.skills {
+	background-color: #D9D9D9;
+	padding-top: 55px;
+}
+
+.icon-skills {
+	text-align: center;
+	font-size: 82px;
+	color: #464749;
+}
+
+.skills  h2 {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	margin-top: 10px;
+	color: #F7931E;
+}
+
+.skills-img {
+	width: 17%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	background-color: #B3B3B3;
+	border-radius: 10px;
+	border: solid 5px #cdc9c9;
+}
+
+.skills-img p {
+	display: none;
+}
+
+.skills-img h3 {
+	color: white;
+}
+
+.photoshop {
+	margin: 3% 1% 5% 3%;
+}
+
+.illustrator, .indesign, .html5  {
+	margin: 3% 1% 5% 1%;
+}
+
+.css3 {
+	margin: 3% 3% 5% 1%;
+}
+
+
+/**************************
+******** EDUCACION *******
+*************************/
+
+.educacion {
+	background-color: #E6E6E6;
+	padding-bottom: 100px;
+	padding-top: 55px;
+}
+
+.banner-educacion {
+	text-align: center;
+}
+
+.banner-educacion  h2 {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	margin-top: 10px;
+	color: #F7931E;
+}
+
+.box-educacion {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.educacion-txt {
+	background-color: white;
+	width: 30%;
+	padding: 25px;
+	float: left;
+	border-radius: 10px;
+}
+
+.box-educacion article:nth-of-type(1) {
+	margin-left: 3%;
+}
+
+.box-educacion article:nth-of-type(2) {
+	margin: 0 2%;
+}
+
+.educacion-txt  h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #F7931E;
+}
+
+.educacion-txt p {
+	font-weight: 300;
+}
+
+
+/**************************
+******** CONTACTO *******
+*************************/
+
+.form-contact {
+	background-color: #D9D9D9;
+	padding-top: 55px;
+}
+
+.form-contact h2 {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	margin-top: 10px;
+	color: #F7931E;
+}
+
+.input-contact {
+	width: 100%;
+}
+
+.input-left {
+	float: left;
+	width: 50%;
+}
+
+.input-left input {
+	border: solid 1px rgb(200, 200, 200);
+	height: 50px;
+	width: 95%;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding-left: 10px;
+	float: right;
+	margin-right: 10px;
+}
+
+.input-right {
+	float: right;
+	width: 50%;
+}
+
+.input-right textarea {
+	width: 95%;
+	height: 110px;
+	margin-top: 10px;
+	padding: 10px 0 0 10px;
+	border-radius: 10px;
+	border: solid 1px rgb(200, 200, 200);
+}
+
+.button-contact {
+	text-align: center;
+	clear: both;
+}
+
+.button-contact button {
+	margin-top: 40px;
+	margin-bottom: 100px;
+	text-decoration: none;
+	background-color: #F7931E;
+	color: #fff;
+	font-size: 10px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 15px 45px 15px 45px;
+	border-radius: 5px;
+	border: none;
+}
+
+/**************************
+******** FOOTER **********
+*************************/
+
+.main-footer {
+	background-color: #464749;
+	padding-top: 15px;
+	height: 70px;
+}
+
+.main-footer p {
+	float: left;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 12px;
+}
+
+.main-footer nav {
+	float: right;
+	margin: 10px 0 0 10px;
+}
+
+.footer-nav a {
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	color: #F7931E;
+	font-size: 16px;
+	color:white;
+}
+
+.footer-nav a:hover {
+	color: #F7931E;
+}

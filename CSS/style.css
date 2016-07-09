@@ -30,26 +30,21 @@ figure {
 *************************/
 
 .main-header {
-   background-color: #F7931E;
-	border-bottom: solid 10px #FF7316;
-	border-top: solid 50px #464749;
+	background-color: #464749;
 }
 
 .container {
-   width: 1200px;
+   max-width: 1200px;
    margin: auto;
 }
 
-.banner-header {
-	background: url(../images/escritorio-header.svg) center top no-repeat;
-	background-size: cover;
-	height: 400px;
+.main-header-box {
+	height: 50px;
 }
 
 .iconos-left {
 	float: left;
-	position: relative;
-	margin: -52px 0 0 10px;
+	margin-left: 20px;
 }
 
 .iconos-left h2 {
@@ -61,8 +56,8 @@ figure {
 
 .iconos-right {
 	float: right;
-	position: relative;
-	margin: -38px 10px 0 0;
+	margin-top: 15px;
+	margin-right: 20px;
 }
 
 .iconos-right i {
@@ -82,23 +77,44 @@ figure {
 	color: rgb(255, 214, 0);
 }
 
-.main-header h1 {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 700;
-   font-size: 52px;
-   color: white;
-	margin: 0px 0px 0px 640px;
-	letter-spacing: -2px;
-	padding-top: 160px;
+
+/**************************
+******** BANNER **********
+*************************/
+
+.banner-header {
+	background-color: #F7931E;
+	border-bottom: solid 10px #FF7316;
 }
 
-.main-header p {
+.banner-header-box {
+}
+
+.escritorio-img {
+	float: left;
+	margin-left: 10%;
+}
+
+.box-titulo {
+	float: left;
+	margin-top: 100px;
+}
+
+.box-titulo h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+   font-size: 62px;
+   color: white;
+	letter-spacing: -2px;
+}
+
+.box-titulo p {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 	color: white;
-	margin: 0px 0px 0px 640px;
    text-transform: uppercase;
+	margin-top: -40px;
 }
 
 .cleaner {
@@ -112,22 +128,23 @@ figure {
 
 .perfil {
 	background-color: #E6E6E6;
-	padding-top: 25px;
+	padding-top: 50px;
+	padding-bottom: 80px;
 }
 
 .banner-perfil  h2 {
 	text-align: center;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	font-size: 32px;
 	margin-top: -10px;
 	color: #F7931E;
+	text-transform: uppercase;
 }
 
 .banner-perfil p {
 	text-align: center;
-	margin: 0 50px;
-	padding-bottom: 40px;
+	margin: 0 4%;
 	font-weight: 300;
 }
 
@@ -145,7 +162,7 @@ figure {
 *************************/
 
 .skills {
-	background-color: #D9D9D9;
+	background-color: #d6d5d5;
 	padding-top: 55px;
 }
 
@@ -157,21 +174,21 @@ figure {
 
 .skills  h2 {
 	text-align: center;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	font-size: 32px;
 	margin-top: 10px;
 	color: #F7931E;
+	text-transform: uppercase;
 }
 
 .skills-img {
 	width: 17%;
-	padding: 10px;
+	padding: 0px 15px 0px 15px;
 	float: left;
 	text-align: center;
-	background-color: #B3B3B3;
+	background-color: #e8e5e5;
 	border-radius: 10px;
-	border: solid 5px #cdc9c9;
 }
 
 .skills-img p {
@@ -179,21 +196,46 @@ figure {
 }
 
 .skills-img h3 {
-	color: white;
+	margin-top: -15px;
+	color: rgb(134, 134, 142);
+}
+
+.skills-img, .figure {
+	margin-top: -100px;
 }
 
 .photoshop {
-	margin: 3% 1% 5% 3%;
+	margin: 2% 1% 5% 3%;
 }
 
 .illustrator, .indesign, .html5  {
-	margin: 3% 1% 5% 1%;
+	margin: 2% 1% 5% 1%;
 }
 
 .css3 {
-	margin: 3% 3% 5% 1%;
+	margin: 2% 3% 5% 1%;
 }
 
+
+/**************************
+******** FRASE ***********
+*************************/
+
+.frase {
+	background: url(../images/laptop-foto2.jpg) center top no-repeat;
+	background-size: cover;
+}
+
+.banner-frase h2 {
+	text-align: center;
+	padding-top: 20%;
+	height: 500px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 52px;
+	color: white;
+	margin: 0;
+}
 
 /**************************
 ******** EDUCACION *******
@@ -211,6 +253,24 @@ figure {
 
 .banner-educacion  h2 {
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	margin-top: 10px;
+	color: #F7931E;
+	text-transform: uppercase;
+}
+
+.educacion-txt  h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	color: #F7931E;
+	text-transform: uppercase;
+}
+
+.educacion-txt  h4 {
+	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 300;
 	font-size: 32px;
@@ -218,17 +278,25 @@ figure {
 	color: #F7931E;
 }
 
+.educacion-txt p {
+	font-weight: 300;
+	margin-top: -25px;
+	margin-bottom: 0;
+}
+
 .box-educacion {
 	margin-top: 50px;
 	text-align: center;
 }
 
-.educacion-txt {
+.article, .educacion-txt {
 	background-color: white;
 	width: 30%;
 	padding: 25px;
 	float: left;
 	border-radius: 10px;
+	min-height: 160px;
+	display: block;
 }
 
 .box-educacion article:nth-of-type(1) {
@@ -239,34 +307,28 @@ figure {
 	margin: 0 2%;
 }
 
-.educacion-txt  h3 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 16px;
-	color: #F7931E;
-}
-
-.educacion-txt p {
-	font-weight: 300;
-}
-
 
 /**************************
 ******** CONTACTO *******
 *************************/
 
 .form-contact {
-	background-color: #D9D9D9;
+	background-color: #D3EDC0;
 	padding-top: 55px;
+}
+
+.banner-contacto {
+	text-align: center;
 }
 
 .form-contact h2 {
 	text-align: center;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	font-size: 32px;
 	margin-top: 10px;
 	color: #F7931E;
+	text-transform: uppercase;
 }
 
 .input-contact {
@@ -284,9 +346,9 @@ figure {
 	width: 95%;
 	border-radius: 10px;
 	margin-top: 10px;
-	padding-left: 10px;
+	padding-left: 1%;
 	float: right;
-	margin-right: 10px;
+	margin-right: 1%;
 }
 
 .input-right {
@@ -298,7 +360,7 @@ figure {
 	width: 95%;
 	height: 110px;
 	margin-top: 10px;
-	padding: 10px 0 0 10px;
+	padding: 10px 0 0 1%;
 	border-radius: 10px;
 	border: solid 1px rgb(200, 200, 200);
 }
@@ -318,7 +380,7 @@ figure {
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	padding: 15px 45px 15px 45px;
+	padding: 15px 4% 15px 4%;
 	border-radius: 5px;
 	border: none;
 }
@@ -330,31 +392,269 @@ figure {
 .main-footer {
 	background-color: #464749;
 	padding-top: 15px;
-	height: 70px;
+	height: 80px;
 }
 
-.main-footer p {
+.footer-left {
 	float: left;
+	margin-left: 20px;
+}
+
+.copyright {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 300;
 	color: white;
 	font-size: 12px;
 }
 
+.mail {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #F7931E;
+	font-size: 12px;
+	margin-top: -10px;
+}
+
 .main-footer nav {
 	float: right;
-	margin: 10px 0 0 10px;
+	margin: 15px 20px 0 10px;
 }
 
 .footer-nav a {
 	text-decoration: none;
 	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	color: #F7931E;
 	font-size: 16px;
 	color:white;
+	text-transform: uppercase;
 }
 
 .footer-nav a:hover {
 	color: #F7931E;
+}
+
+
+/************************************************************************/
+
+
+/**************************
+***** MEDIA-QUERIES ******
+*************************/
+
+@media (max-width: 800px) {
+	.container {
+		width: 95%;
+}
+
+.escritorio-img {
+	float: none;
+	margin: 0px 20% 0 25%;
+	padding-top: 35px;
+}
+
+.box-titulo {
+	float: none;
+	margin: -50px 0 50px 0;
+	padding-left: 0;
+	text-align: center;
+}
+
+.educacion-txt  h4 {
+	font-size: 24px;
+}
+
+.educacion-txt p {
+	margin-top: -15px;
+}
+
+.educacion-txt h3 {
+	font-size: 10px;
+}
+
+.educacion-txt {
+	min-height: 180px;
+}
+
+.banner-frase h2 {
+	padding-top: 200px;
+}
+
+/**************************/
+
+
+@media (max-width: 600px) {
+	.container {
+		width: 95%;
+}
+
+.skills-img {
+	padding: 0;
+}
+
+.skills-img h3 {
+	font-size: 12px;
+	margin-top: -5px;
+}
+
+.box-educacion h3 {
+	font-size: 8px;
+}
+
+.box-educacion h4 {
+	font-size: 16px;
+}
+
+.box-educacion p {
+	font-size: 8px;
+}
+
+.educacion-txt {
+	padding: 20px;
+}
+
+.educacion-txt {
+	min-height: 120px;
+}
+
+.educacion {
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+
+.form-contact {
+	padding-top: 25px;
+}
+
+.button-contact button {
+	margin-bottom: 30px;
+}
+
+
+/**************************/
+
+@media (max-width: 430px) {
+	.container {
+		width: 95%;
+}
+
+.skills-img h3 {
+	font-size: 12px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+}
+
+.skills-img {
+	padding: 0;
+}
+
+.perfil {
+	background-color: #E6E6E6;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.banner-perfil  h2 {
+	font-size: 24px;
+}
+
+.banner-perfil p {
+	font-size: 14px;
+}
+
+.skills {
+	background-color: #d6d5d5;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.skills  h2 {
+	font-size: 24px;
+}
+
+.banner-frase h2 {
+	font-size: 44px;
+	padding-top: 10%;
+	height: 250px;
+}
+
+.educacion {
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+
+.banner-educacion  h2 {
+	font-size: 24px;
+}
+
+.educacion-txt {
+	min-height: 150px;
+}
+
+.article, .educacion-txt {
+	width: 100%;
+	padding: 10px;
+	float: none;
+	min-height: 70px;
+	margin-bottom: 10px;
+}
+
+.box-educacion article:nth-of-type(1) {
+	margin-left: 0%;
+}
+
+.box-educacion article:nth-of-type(2) {
+	margin: 10px 0;
+}
+
+.form-contact {
+	padding-top: 25px;
+}
+
+.button-contact button {
+	margin-bottom: 30px;
+}
+
+.input-left {
+	float: none;
+	width: 100%;
+}
+
+.input-left input {
+	width: 100%;
+	margin-right: 0%;
+}
+
+.input-right {
+	float: none;
+	width: 100%;
+}
+
+.input-right textarea {
+	width: 100%;
+}
+
+.form-contact h2 {
+	font-size: 24px;
+}
+
+.footer-left {
+	float: none;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.main-footer nav {
+	float: none;
+	margin: 0;
+	text-align: center;
+}
+
+.main-footer {
+	padding-top: 15px;
+	height: 110px;
+}
+
+.footer-nav a {
+	font-weight: 400;
 }
